@@ -42,3 +42,14 @@ insert into email values(1, "amit", "kumar");
 insert into email values(2, "poonam", "chauhan");
 insert into email values(3, "shweta", "chauhan");
 
+insert into productprice (currency) values ("10$");
+insert into productprice values("15$");
+insert into productprice values("20$");
+
+insert into productdescription values ("green", 12, "20kg");
+insert into productdescription values ("red", 10, "30kg");
+insert into productdescription values ("black", 40, "50kg");
+
+insert into productdetails (userid, productinformation, producttype) values (5, "veg", "solid");
+insert into productdetails values (7, "veg", "fragile");
+insert into productdetails values (9, "non-veg", "fatty");

@@ -1,1 +1,1 @@
-use database markethub:
+create databases markethub
